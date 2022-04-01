@@ -32,9 +32,8 @@ int main(){
                 }
             }
         }
-        --pos;
         if(strlen(res) == 0){
-            printf("\n", res);
+            printf("\n");
         }
         else{
             qsort(res, sizeof(res), sizeof(char), cmp);

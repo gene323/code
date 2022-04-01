@@ -27,5 +27,5 @@ for news in news_list:
         "title": title, "url": url
     })
 
-with open("./result.json", "w+") as f:
+with open("result.json", "w+") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

@@ -8,8 +8,8 @@ int main(){
     while(scanf("%s", str) != EOF){
         int isMir = 1;
         int isPal = 1;
-
         int len = strlen(str);
+
         //judge palindrome
         for(int i=0; i<len/2; i++){
             if(str[i] != str[len - i - 1]){
@@ -91,6 +91,7 @@ int main(){
                     break;
             }
         }
+        //judge mirror
         for(int i=0; i<len; i++){
             if(mirStr[i] != str[len - i - 1]){
                 isMir = 0;
