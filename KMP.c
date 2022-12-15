@@ -44,7 +44,7 @@ int main(){
 void countLPS(char *pattern, int *lps){
     int i = 0;
     //Because lps[0] = 0
-    //We count lps start from 1
+    //We count lps index start from 1
     int j = 1;
     int cnt = 1;
     while(j < strlen(pattern)){
